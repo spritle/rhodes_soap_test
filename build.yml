@@ -1,0 +1,9 @@
+#sdk: <set to your rhodes version>
+sdkversion: 3.2.3
+name: rhodes_soap_test
+version: 1.0
+vendor: spritle
+build: debug
+applog: rholog.txt
+
+extensions: ["net-http", "rhoxml"]

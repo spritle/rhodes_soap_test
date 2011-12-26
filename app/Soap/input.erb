@@ -1,0 +1,17 @@
+<div data-role="page">
+
+  <div data-role="header" data-position="inline">
+    <h1>Consume SOAP (°C to °F)</h1>
+  </div>
+
+  <div data-role="content">
+    <form method="POST" action="<%= url_for :action => :to_fahrenheit %>">
+          <div data-role="fieldcontain">
+            <label for="convert[celsius]" class="fieldLabel">Celsius</label>
+            <input type="text" id="convert[celsius]" name="convert[celsius]" />
+          </div>
+      <input type="submit" value="Convert to Fahrenheit"/>
+    </form>
+  </div>
+
+</div>
